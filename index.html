@@ -21,6 +21,11 @@
 
   <link rel="stylesheet" href="./css/bootstrap.css">
 
+
+  <!--AOSlibrary link-->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!--my css-->
   <link rel="stylesheet" href="./css/styles.css">
 
@@ -29,7 +34,7 @@
 <body>
 
   <!--above nav starts here-->
-  <div class="d-none d-md-block p-3" id="abovenav">
+  <div class="d-none d-md-block p-3 " id="abovenav">
     <div class="container abovenav d-flex justify-content-between text-white align-items-center">
       <div class="d-flex gap-4 ">
         <p>
@@ -103,20 +108,183 @@
 
 
 
-    <!--hero starts here-->
-      <header>
-        <section class="head">
-
-        </section>
-      </header>
+  <!--hero starts here-->
+  <header>
 
 
+    <div id="carouselExampleCaptions" class="carousel slide backimg ">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+          class="active visually-hidden" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" class="visually-hidden" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" class="visually-hidden" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/headerbackground1.png.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption container  position-absolute headingdiv text-start" data-aos="fade-up"
+            data-aos-duration="1000">
+            <h1 class="headingcolor mainheading">
+              Expert Consultants
+            </h1>
 
-      <!--hero ends here-->
+            <p class="headingcolor mainheadingtext">Over 10 years of experience in helping clients <br> finding
+              comprehensivse solution.</p>
+            <button class="btn headerbtnblue me-4">Read More <i class="ri-arrow-right-wide-line fw-bold"></i></button>
+            <button class="btn headerbtnyellow">Contact Us<i class="ri-arrow-right-wide-line fw-bold"></i></button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/header2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption container  position-absolute headingdiv text-start" data-aos="fade-up"
+            data-aos-duration="1000">
+            <h1 class="headingcolor mainheading">
+              Helping Leaders
+            </h1>
+
+            <p class="headingcolor mainheadingtext">
+
+              We look forward to help you in taking your <br> company to new height.</p>
+            <button class="btn headerbtnblue me-4">Read More <i class="ri-arrow-right-wide-line fw-bold"></i></button>
+            <button class="btn headerbtnyellow">Contact Us<i class="ri-arrow-right-wide-line fw-bold"></i></button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/kaleidico-RDYdOvk8ats-unsplash.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption container position-absolute headingdiv text-start" data-aos="fade-up"
+            data-aos-duration="1000">
+            <h1 class="headingcolor mainheading">
+              Growth Partners
+            </h1>
+
+            <p class="headingcolor mainheadingtext">
+
+              Connect with top consultants hand-picked by <br> Elixir consulting and finance.</p>
+            <button class="btn headerbtnblue me-4">Read More <i class="ri-arrow-right-wide-line fw-bold"></i></button>
+            <button class="btn headerbtnyellow">Contact Us<i class="ri-arrow-right-wide-line fw-bold"></i></button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </header>
 
 
 
 
+  <!--hero ends here-->
+
+  <section class="mt-5 py-5">
+    <div class="container">
+      <h1 class="headingcolor text-center fw-bold">Welcome to the Elixir</h1>
+      <p class="text-center textcolor ">Get expert consultancy and support with Elixir, an advisory firm <br> that stand
+        by your side always.
+
+      </p>
+      <div class="row mt-5 pt-5 mb-5">
+        <div class="col-md-6 col-lg-3 colums text-center">
+          <div>
+            <p><i class="ri-bar-chart-line headingcolor fs-1 iconr1"></i></p>
+            <h3 class="headingcolor fs-4 fw-bold mt-5 mb-3">Business Consulting
+            </h3>
+            <p class="textcolor">Solution for every business related problems, readily
+              and skillfully.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 colums text-center">
+          <div>
+            <p><i class="ri-notification-3-line headingcolor fs-1 iconr1"></i></p>
+            <h3 class="headingcolor fs-4 fw-bold mt-5 mb-3">Risk Managementg
+            </h3>
+            <p class="textcolor">
+              Calculate every possible risk in your business, take
+              control over them.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 colums text-center">
+          <div>
+            <p><i class="ri-lightbulb-line headingcolor fs-1 iconr1"></i></p>
+            <h3 class="headingcolor fs-4 fw-bold mt-5 mb-3">Market Research
+            </h3>
+            <p class="textcolor">
+              Know the market before taking any step, reduce
+              risks before you go.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 colums text-center">
+          <div>
+            <p><i class="ri-customer-service-2-line headingcolor fs-1 iconr1"></i></p>
+            <h3 class="headingcolor fs-4 fw-bold mt-5 mb-3">Quality Services
+            </h3>
+            <p class="textcolor">
+              Experience unparalleled service, from beginning
+              to final construction.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 mb-5 py-5">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="r2img">
+            <img src="./img/header2.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-12">
+          <div class="row mt-5 mb-5">
+            <div class="col-md-6 col-lg-4">
+              <div class="d-flex headingcolor">
+                <i class="ri-team-fill"></i>
+                <h3>Awesome Team</h3>
+              </div>
+              <p class="texrcolor">
+                Before talking destination, we shine a spotlight across your organization
+                to fully understand it.</p>
+            </div>
+             <div class="col-md-6 col-lg-4">
+              <div class="d-flex headingcolor">
+                <i class="ri-team-fill"></i>
+                <h3>Awesome Team</h3>
+              </div>
+              <p class="texrcolor">
+                Before talking destination, we shine a spotlight across your organization
+                to fully understand it.</p>
+            </div>
+             <div class="col-md-6 col-lg-4">
+              <div class="d-flex headingcolor align-items-center">
+                <i class="ri-team-fill fs-3 me-4"></i>
+                <h5 class="fw-bold">Awesome Team</h5>
+              </div>
+              <p class="texrcolor">
+                Before talking destination, we shine a spotlight across your organization
+                to fully understand it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--AOSjs link-->
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--bootstrap link-->
   <script src="./js/bootstrap.js"></script>
 </body>
 

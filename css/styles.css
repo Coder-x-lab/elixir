@@ -2,6 +2,14 @@
     --headingcolor:#2A3855;
     --textcolor:#6A6A6A;
     }
+  .headingcolor{
+    color: var(--headingcolor) !important;
+  }
+ .textcolor{
+    color: var(--textcolor);
+ }
+
+
    #abovenav{
     background-color: var(--headingcolor);
    
@@ -50,17 +58,66 @@
 
 
 
+/*header starts here*/
+.backimg img{
+    max-height: 100vh !important;
+}
+.headingdiv{
+    left: 100px !important;
+    top: 100px !important;
+
+}
+.mainheading{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 10px !important;
+}
+.mainheadingtext{
+    font-size: 30px !important;
+    font-weight: light;
+    margin-bottom: 50px !important;
+}
+.headerbtnblue{
+    color: white !important;
+    background-color: var(--headingcolor) ;
+   font-size: 13px !important;
+   font-weight: 800;
+    padding: 12px 27px;
+
+}
+.headerbtnblue:hover{
+    color: white !important;
+    background-color: #222c41;
+    transition-duration: .3s;
+}
+.headerbtnyellow:hover{
+    color: var(--headingcolor) !important;
+    background-color: rgb(230, 230, 102) !important;
+    transition-duration: .3s;
+}
+.headerbtnyellow{
+        color:var(--headingcolor);
+    background-color: rgb(245, 245, 5) ;
+   font-size: 13px !important;
+   font-weight: 800;
+    padding: 12px 24px;
+
+
+}
 
 
 
 
 
+.iconr1{
+    background-color: #f8f8f8 !important;
+    border-radius: 100% !important;
+    border: 1.2px solid rgb(218, 191, 191);
+    padding: 26px !important;
+}
+.r2img img{
+width: 100%;
+height: 100vh;
 
-
-
-
-
-
-.head{
-    background-image: url(./img/headerbackground1.png.jpg);
+  border-radius: 13px !important;
 }
