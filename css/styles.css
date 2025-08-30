@@ -8,6 +8,14 @@
  .textcolor{
     color: var(--textcolor);
  }
+ .underheading{
+    background-color: var(--headingcolor) !important;
+    width: 90px !important;
+    margin: 10px auto;
+    padding: 1.3px;
+    border-radius: 50px;
+   
+ }
 
 
    #abovenav{
@@ -120,4 +128,21 @@ width: 100%;
 height: 100vh;
 
   border-radius: 13px !important;
+}
+
+
+
+
+
+
+
+
+
+
+.serimg img{
+    width: 102% !important;
+   margin: 0px !important;
+}
+.sertext{
+    width: 47%;
 }
