@@ -70,7 +70,11 @@
     padding-left: 20px !important;
 }
 
-
+.navbar{
+    position: sticky;
+    top: 0px !important;
+    opacity: .9;
+}
 
 /*header starts here*/
 .backimg img {
@@ -78,8 +82,14 @@
 }
 
 .headingdiv {
-    left: 100px !important;
-    top: 100px !important;
+    left: -7px !important;
+    top: 0px !important;
+    bottom: 0 !important;
+    padding-left: 100px !important;
+    padding-top: 100px !important;
+     background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  padding: 20px 40px;
+  display: inline-block;
 
 }
 
@@ -250,13 +260,14 @@
 }
 
 .form2 {
-    margin-left: 45px !important;
+    margin-left: 45px;
     width: 60% !important;
 }
 
 .form2 input {
     padding: 10px !important;
-    padding-right:  130px !important;
+    padding-right:  auto ;
+    width: 44% ;
     font-size: 12px !important;
     margin-left: 24px !important;
     border-radius: 6px !important;
@@ -265,6 +276,7 @@
     margin-top: 20px !important;
     margin-bottom: 14px !important;
 }
+
 .form2 a{
     background-color: rgb(245, 245, 5) !important;
     color: var(--headingcolor) !important;
@@ -272,7 +284,7 @@
     text-decoration: none;
     font-size: 12px !important;
     font-weight: bold;
-    padding: 10px 124px !important;
+    padding: 10px 124px ;
     margin-left: 24px !important;
     border-radius: 6px !important;
    
@@ -280,3 +292,43 @@
 
 
 /* blue section ends here*/
+
+
+
+
+
+/* global leadership starts here*/
+.carimg img{
+    width: 100%;
+}
+.carimg{
+    margin: 0px !important;
+    width: 33% !important;
+    max-height: 10% !important;
+}
+.carimg .ptag{
+    font-size: 12px !important;
+}
+
+
+/* global leadership ends here*/
+
+
+
+/* blue section with bg img starts here*/
+
+
+#bluebgimg{
+    background-image: url(../img/pexels-olly-845457.jpg);
+    background-size: 100% !important;
+
+}
+.background{
+      background: linear-gradient(to right, rgba(76, 60, 112 .8), rgba(74, 66, 95, .8));
+}
+.bluebghead{
+    color: rgb(245, 245, 5) !important;
+    font-size: 55px !important;
+    font-weight: bold;
+}
+/* blue section with bg img ends here*/
