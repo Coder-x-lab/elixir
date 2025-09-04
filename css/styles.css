@@ -106,10 +106,13 @@
     .slide.active {
       opacity: 1;
     }
+<<<<<<< HEAD
     .wide{
         width: 35% !important;
       
     }
+=======
+>>>>>>> 62eab762101ab08399ab6a83057243ad235b39cf
 
     .slide-text {
       position: absolute;
@@ -256,11 +259,18 @@ padding-top: 400px;
 
 }
 .service h1{
+<<<<<<< HEAD
     font-size: 60px !important;
     
 }
 .service h6{
     font-size: 24px !important;
+=======
+    font-size: 70px !important;
+}
+.service h6{
+    font-size: 35px !important;
+>>>>>>> 62eab762101ab08399ab6a83057243ad235b39cf
 }
 .serimg img {
     width: 108% !important;
@@ -269,10 +279,15 @@ padding-top: 400px;
 }
 
 .sertext {
+<<<<<<< HEAD
     
     padding-left: 60px !important;
     padding-right: 60px !important;
    
+=======
+    width: 47%;
+    padding-left: 40px !important;
+>>>>>>> 62eab762101ab08399ab6a83057243ad235b39cf
 }
 
 .learnright:hover {
@@ -510,15 +525,25 @@ footer input {
     border-radius: 6px;
     border: none;
     font-size: 14px;
+<<<<<<< HEAD
     padding: 10.8px;
+=======
+    padding: 11.8px;
+>>>>>>> 62eab762101ab08399ab6a83057243ad235b39cf
     
 }
 
 footer .btn {
     background-color: rgba(245, 245, 5, 0.849);
+<<<<<<< HEAD
     padding: 10.8px 40px !important;
     border-radius: 5px;
     font-size: 14px !important;
+=======
+    padding: 10.8px 40px;
+    border-radius: 5px;
+    font-size: 14px;
+>>>>>>> 62eab762101ab08399ab6a83057243ad235b39cf
     font-weight: 700;
     color: var(--headingcolor);
 }
